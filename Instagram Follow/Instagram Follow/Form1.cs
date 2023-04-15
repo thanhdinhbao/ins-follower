@@ -41,7 +41,7 @@ namespace Instagram_Follow
 
             }
             //pass
-            string pass = "DBthanh26092004";
+            string pass = "";
             var el2 = driver.FindElementByName("password");
             el2.SendKeys(pass + OpenQA.Selenium.Keys.Enter);
             Thread.Sleep(3000);
